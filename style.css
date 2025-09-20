@@ -1,0 +1,177 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: sticky;
+  top: 0;
+}
+header img {
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+nav {
+  margin-right: 200px;
+}
+nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 100px;
+  background-color: red;
+}
+nav a:hover {
+  background-color: yellow;
+  color: black;
+}
+nav ul,
+nav li {
+  display: flex;
+  margin-right: 20px;
+  width: 400px;
+  justify-content: space-between;
+  text-align: center;
+}
+#Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("Hero background.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 1100px;
+}
+#Home h1 {
+  color: white;
+  font-size: 64px;
+}
+span {
+  color: yellow;
+}
+button {
+  background-color: rgb(250, 49, 49);
+  color: white;
+  font-size: 24px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+#Menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  height: 800px;
+}
+#Menu h1 {
+  font-size: 48px;
+  margin-top: 800px;
+  margin-bottom: 20px;
+}
+#Menu h2 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+#Menu strong {
+  color: red;
+  font-size: 23px;
+  width: 200px;
+  text-align: justify;
+}
+#Menu p {
+  font-size: 20px;
+  width: 400px;
+  text-align: justify;
+}
+#About {
+  margin-top: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#About h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#About p {
+  font-size: 20px;
+  width: 600px;
+  text-align: justify;
+  line-height: 2;
+  word-spacing: 8px;
+  letter-spacing: 3px;
+}
+#Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Form label{
+  font-size: 12px;
+  font-weight: bold;
+  margin: 10px;
+}
+#Form input{
+  margin:5px;
+  border-radius: 15px;
+  padding: 5px;
+} 
+#Submit:hover{
+  ;
+  background-color: red;
+}
+#Form textarea{
+   margin: 5px;
+   border: 2px solid black;
+}
+
+#Contact{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+#Contact h2{
+  text-align: center;
+  font-size: 32px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  
+}
+footer a {
+  display: flex;
+  justify-content: flex-end;
+}
+footer svg {
+  margin-left: 10px;
+  color: black;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+
+
